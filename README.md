@@ -4,6 +4,10 @@ This repository contains the hardware design files, documentation, and firmware 
 
 This platform is designed for active speaker systems, custom crossover networks, and integrated audio processing applications requiring a compact footprint and standardised power inputs.
 
+| PCB Front | PCB Back |
+|-----------|----------|
+| ![](imgs/front.jpg) | ![](imgs/back.jpg) |
+
 ---
 
 ## System Architecture and Major Components
