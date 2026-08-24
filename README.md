@@ -6,7 +6,7 @@ This platform is designed for active speaker systems, custom crossover networks,
 
 | PCB Front | PCB Back |
 |-----------|----------|
-| ![](imgs/front.jpg) | ![](imgs/back.jpg) |
+| ![](imgs/front.png) | ![](imgs/back.png) |
 
 ---
 
