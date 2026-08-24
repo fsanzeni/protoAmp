@@ -1,0 +1,13 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "AP63357DV-7") (type "KiCad") (uri "${KIPRJMOD}/libraries/AP63357DV-7") (options "") (descr ""))
+	(lib (name "DMP3018SFV-7") (type "KiCad") (uri "${KIPRJMOD}/libraries/DMP3018SFV-7") (options "") (descr ""))
+	(lib (name "TPA3126D2DADR") (type "KiCad") (uri "${KIPRJMOD}/libraries/TPA3126D2DADR") (options "") (descr ""))
+	(lib (name "SRP1265A-100M") (type "KiCad") (uri "${KIPRJMOD}/libraries/SRP1265A-100M/SRP1265A-100M.pretty") (options "") (descr ""))
+	(lib (name "UJ20-C-R-G-TH-P14") (type "KiCad") (uri "${KIPRJMOD}/libraries/UJ20-C-R-G-TH-P14/UJ20-C-R-G-TH-P14.pretty") (options "") (descr ""))
+	(lib (name "WeAct-STM32WBA65CxCoreBoard") (type "KiCad") (uri "${KIPRJMOD}/libraries/WeAct-STM32WBA65CxCoreBoard/WeAct-STM32WBA65CxCoreBoard.pretty") (options "") (descr ""))
+	(lib (name "ATS-TI1OP-521-C1-R1") (type "KiCad") (uri "${KIPRJMOD}/libraries/ATS-TI1OP-521-C1-R1/ATS-TI1OP-521-C1-R1.pretty") (options "") (descr ""))
+	(lib (name "XTM32012288JT00351001") (type "KiCad") (uri "${KIPRJMOD}/libraries/XTM32012288JT00351001/XTM32012288JT00351001.pretty") (options "") (descr ""))
+	(lib (name "ZX-TYPEC-WTM1648-C") (type "KiCad") (uri "${KIPRJMOD}/libraries/ZX-TYPEC-WTM1648-C/ZX-TYPEC-WTM1648-C.pretty") (options "") (descr ""))
+	(lib (name "USB4900-00-A") (type "KiCad") (uri "${KIPRJMOD}/libraries/USB4900-00-A/USB4900-00-A.pretty") (options "") (descr ""))
+)

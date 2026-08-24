@@ -1,0 +1,801 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "7fbdbae5-a0af-4093-a2a8-e5759c214c86")
+	(paper "A5")
+	(title_block
+		(title "USB C 100W AudioDSP Amplifier")
+		(date "2026-08-12")
+		(rev "0.1")
+	)
+	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 53.34 60.96) (xy 71.12 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09111fa5-5514-40e7-96da-1110b8ff812c")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a1ea94a-91e4-4433-8f34-60581c8b66df")
+	)
+	(wire
+		(pts
+			(xy 125.73 83.82) (xy 128.27 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35cacb43-33a7-46bb-bf03-252889afc7fa")
+	)
+	(wire
+		(pts
+			(xy 104.14 60.96) (xy 101.6 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "377feab9-d43b-4eba-ae39-922e6d4d138d")
+	)
+	(wire
+		(pts
+			(xy 101.6 68.58) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b13687-405b-4f66-bdf5-f18272af263a")
+	)
+	(wire
+		(pts
+			(xy 106.68 63.5) (xy 106.68 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eb793e1-ed60-486e-9140-ebbb1c12dce8")
+	)
+	(wire
+		(pts
+			(xy 120.65 68.58) (xy 120.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b72717-e54f-46b9-aeb0-47434a527773")
+	)
+	(wire
+		(pts
+			(xy 123.19 86.36) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "537c3abf-5ae8-4209-b873-2dc59b27c96b")
+	)
+	(wire
+		(pts
+			(xy 101.6 63.5) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c0c2a05-954e-4af4-afc1-095c00898a0f")
+	)
+	(wire
+		(pts
+			(xy 125.73 67.31) (xy 125.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74616052-9f9d-4a82-ad19-a2044a612b8a")
+	)
+	(wire
+		(pts
+			(xy 53.34 63.5) (xy 71.12 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9739d4d7-3841-40d3-9cf2-3b02bae044ad")
+	)
+	(wire
+		(pts
+			(xy 123.19 66.04) (xy 123.19 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c8ebb96-1e95-42f3-b97b-1a7b87e9f81d")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9f2f27d6-5490-45de-98ba-ea4283ed48ef")
+	)
+	(wire
+		(pts
+			(xy 120.65 95.25) (xy 128.27 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baa67d11-60ac-44a3-a03e-b3e704759eef")
+	)
+	(wire
+		(pts
+			(xy 106.68 59.69) (xy 128.27 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "baf51697-2807-4132-85f2-79675fcc0b0c")
+	)
+	(wire
+		(pts
+			(xy 104.14 57.15) (xy 104.14 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c416ab83-f502-4d9e-b945-80b2708cbc6a")
+	)
+	(wire
+		(pts
+			(xy 128.27 57.15) (xy 104.14 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df8af219-5e81-4e0a-b2e5-4a82d2ee2454")
+	)
+	(wire
+		(pts
+			(xy 53.34 68.58) (xy 71.12 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e08135d5-46f1-4716-875e-c403c72b5706")
+	)
+	(wire
+		(pts
+			(xy 163.83 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e121dc3b-74cf-410f-93c3-4045332468a7")
+	)
+	(wire
+		(pts
+			(xy 163.83 59.69) (xy 163.83 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4e4e8b9-26c6-4c86-afdb-4befd3504e56")
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 128.27 95.25 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "65f26ec6-d925-4795-b44c-52ffce5e4c5a")
+		(property "Reference" "TP23"
+			(at 133.35 93.9799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "OUT4"
+			(at 133.35 96.5199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 128.27 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5002c075-c903-4081-bc2e-b98b1255f16c")
+		)
+		(instances
+			(project "protoAmp"
+				(path "/7fbdbae5-a0af-4093-a2a8-e5759c214c86"
+					(reference "TP23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 41.91)
+		(size 120.65 5.08)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "0a530e8e-975f-4e28-9d37-224ab6b417c3")
+		(property "Sheetname" "Power"
+			(at 40.64 41.1984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/power.kicad_sch"
+			(at 40.64 47.5746 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "protoAmp"
+				(path "/7fbdbae5-a0af-4093-a2a8-e5759c214c86"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 71.12 58.42)
+		(size 30.48 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "39ed84c4-58c0-4999-b49a-e4ed745cf316")
+		(property "Sheetname" "ADAU1701"
+			(at 71.12 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/adau1701.kicad_sch"
+			(at 71.12 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OUT1" output
+			(at 101.6 60.96 0)
+			(uuid "0def8fe6-a607-4ca4-819b-034a38ec7f81")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT2" output
+			(at 101.6 63.5 0)
+			(uuid "f12434cd-2890-4c85-a37f-3213c040d5ab")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT3" output
+			(at 101.6 66.04 0)
+			(uuid "e680d171-9d19-4c27-9bfc-26bf21133456")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "OUT4" output
+			(at 101.6 68.58 0)
+			(uuid "f2b83e32-7413-4af9-8bf7-4707d2e70d41")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MP1{slash}DSP_SDATA" input
+			(at 71.12 68.58 180)
+			(uuid "2010f323-08e3-45c2-8f34-ca98bf32624c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MP10{slash}DSP_LRCLK" output
+			(at 71.12 63.5 180)
+			(uuid "646d4d46-f3ef-446f-a4a5-20c9b3d685ff")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MP11{slash}DSP_BCLK" output
+			(at 71.12 60.96 180)
+			(uuid "42556f27-6a32-4e18-8425-2ff07040ab3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "protoAmp"
+				(path "/7fbdbae5-a0af-4093-a2a8-e5759c214c86"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 40.64 58.42)
+		(size 12.7 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "4d485eb1-bd71-43b6-9d1d-8af43af5b2e1")
+		(property "Sheetname" "Microcontroller"
+			(at 40.64 57.7084 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/mcu.kicad_sch"
+			(at 40.64 71.7046 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BCLK_SCK" input
+			(at 53.34 60.96 0)
+			(uuid "a212d2fd-c63f-4e39-a1d8-e94f24257206")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDATA" output
+			(at 53.34 68.58 0)
+			(uuid "07e3c599-c034-4f15-a4cf-0bf78f7d3099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "WS_LRCLK" input
+			(at 53.34 63.5 0)
+			(uuid "94857ac5-735f-4acf-bd45-2468d7ef8807")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "protoAmp"
+				(path "/7fbdbae5-a0af-4093-a2a8-e5759c214c86"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 81.28)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "c9cda11c-bcc6-4253-b90d-78a0324f9414")
+		(property "Sheetname" "Sub Amp"
+			(at 128.27 80.5684 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/TPA3126D2-B.kicad_sch"
+			(at 128.27 89.4846 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN3" input
+			(at 128.27 86.36 180)
+			(uuid "c7734282-446d-476d-8c4f-edaff852f7e4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCI" input
+			(at 128.27 83.82 180)
+			(uuid "68948d67-dafa-483c-8173-2bf27cee5553")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "protoAmp"
+				(path "/7fbdbae5-a0af-4093-a2a8-e5759c214c86"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 128.27 54.61)
+		(size 33.02 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "ed2c5794-5433-4cd0-b333-89c0b5fe8349")
+		(property "Sheetname" "Tweeter and Mid Amp"
+			(at 128.27 53.8984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sch/TPA3126D2-A.kicad_sch"
+			(at 128.27 62.8146 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "IN1" input
+			(at 128.27 57.15 180)
+			(uuid "8cd56523-35a0-498d-b06b-0bc09e26e725")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "IN2" input
+			(at 128.27 59.69 180)
+			(uuid "5dbfc1ed-45ab-4589-86ac-a00dda29f50f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SYNCO" output
+			(at 161.29 59.69 0)
+			(uuid "f0b79503-a81f-4799-a298-5f7373dc8e57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "protoAmp"
+				(path "/7fbdbae5-a0af-4093-a2a8-e5759c214c86"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

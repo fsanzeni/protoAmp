@@ -1,0 +1,166 @@
+(footprint "XTM32012288JT00351001"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "Y**"
+		(at 0 -2.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "cba2c75e-54b9-4309-9a23-77319c40a561")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "XTM32012288JT00351001"
+		(at 0 2.4 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2bfa2e41-8a0a-4d83-bf5b-a836a50cae43")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/C41383238.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.1.xh&lcsc_vid=QwMLVlxfFlFcVVIDT1UPVwIAQFRbXlBTFFBWVgUEEgAxVlNeQVFcU1NQRFRbVDsOAxUeFF5JWBYZEEoKFBINSQcJGk4%3D"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "aa07aa64-7f14-490d-9db7-5c8b83bfc49f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "SMD MHz Quartz Crystal Resonator XTM-Series(3225)"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7feff5c9-c3fb-485b-b7f0-9d597c7c655d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -1.9 -1.6)
+		(end -1.6 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "41696499-c5fa-40ce-8a21-49a782122185")
+	)
+	(fp_line
+		(start -1.9 -1.3)
+		(end -1.9 -1.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36ad1203-8db7-41ef-af29-e419397776c3")
+	)
+	(fp_line
+		(start -1.7 0.3)
+		(end -1.7 -0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a5d90a2-4727-4ffa-a031-4b043a9108ae")
+	)
+	(fp_line
+		(start -0.4 -1.4)
+		(end 0.4 -1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3731742-22e3-49a2-b27e-ca96e5f6f6a8")
+	)
+	(fp_line
+		(start -0.4 1.4)
+		(end 0.4 1.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a66cd6f5-5394-4ec4-a95e-a5ec81315ce6")
+	)
+	(fp_line
+		(start 1.7 -0.3)
+		(end 1.7 0.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "be5b711e-e72c-4cd3-a2f4-ec2d8549118b")
+	)
+	(fp_rect
+		(start -1.9 -1.6)
+		(end 1.9 1.6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "34919b65-12e2-4408-8dc1-243fbf92d656")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 3.9 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "af5aef7f-5758-413a-bb67-0de61c2368ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.15 0.95 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2044561d-82cb-4d2c-9b58-ddd6cd1f6b81")
+	)
+	(pad "2" smd rect
+		(at 1.15 0.95 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "416d258a-e7fc-47c3-a9af-da2081e16a43")
+	)
+	(pad "3" smd rect
+		(at 1.15 -0.95 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "686e6c60-c484-43c3-9a0a-5f9431814dc6")
+	)
+	(pad "4" smd rect
+		(at -1.15 -0.95 90)
+		(size 1.1 1.3)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d8eadb64-d20a-41cc-9be8-1c4ca0c44f10")
+	)
+	(embedded_fonts no)
+)
